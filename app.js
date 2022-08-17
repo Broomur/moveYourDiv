@@ -18,7 +18,7 @@ const hideModal = document.querySelector("#hideModal");
 let clickCounter = 0;
 
 /* ****************************************************************
-************************* EVENT-HANDLERS **************************
+**************************** FUNCTIONS ****************************
 **************************************************************** */
 function showingModal() {
     modalDiv.style.display = "block";
@@ -28,6 +28,10 @@ function hidingModal() {
     modalDiv.style.display = "none";
 };
 
+
+/* ****************************************************************
+************************* EVENT-HANDLERS **************************
+**************************************************************** */
 moveDiv.addEventListener("click", () => {
     switch(clickCounter) {
         case 0:
